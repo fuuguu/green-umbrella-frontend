@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const api = axios.create({
   // Это адрес твоего запущенного Laravel сервера
-  baseURL: 'http://localhost:8000/api', 
+  baseURL: 'http://45.147.179.183/api', 
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json'
